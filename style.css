@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr;
+}
+
+/*    |||||||||DASHBOARD||||||||| */
+
+.dashboard {
+  display: grid;
+  grid-auto-flow: row;
+  grid-area: 1 / 1 / 3 / 2;
+  background-color: rgb(25, 146, 212);
+  color: white;
+}
+
+.header-logo {
+  display: grid;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.dashboard-items {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.item {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.communities {
+  margin-bottom: 5rem;
+}
+
+/*    |||||||||HEADER||||||||| */
+
+.header {
+  display: grid;
+  grid-template-rows: 1fr 1.7fr;
+  grid-template-columns: 1.5fr 1fr;
+  margin-top: 0.6rem;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  background-color: rgb(226, 232, 240);
+  margin-left: 1.6rem;
+  margin-right: 10rem;
+  height: 2rem;
+  border-radius: 3rem;
+  flex: 1;
+}
+
+.user-info1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin-right: 3rem;
+}
+
+.magnify-glass {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 3rem;
+}
+
+.bell {
+  height: 2rem;
+  width: 2rem;
+}
+
+.account-circle {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.user-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  align-self: center;
+  justify-self: end;
+  margin-right: 2rem;
+}
+
+/* .user-name::before {
+  content: url(icons/magnify.svg);
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+} */
+
+.main-content {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: rgb(226, 232, 240);
+}
