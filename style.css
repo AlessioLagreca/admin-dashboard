@@ -222,3 +222,29 @@ body {
   width: 2rem;
   height: 2rem;
 }
+
+/* RIGHT CONTENT */
+
+.right-content {
+  margin-top: 3rem;
+  margin-left: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+.ann {
+  background-color: white;
+  padding: 1.5rem;
+  margin-right: 2rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+.ann p {
+  margin-top: 0.5rem;
+  color: rgb(101, 101, 101);
+}
