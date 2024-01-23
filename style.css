@@ -91,7 +91,7 @@
   width: 2rem;
 }
 
-.account-circle {
+.account-circle1 {
   height: 3.5rem;
   width: 3.5rem;
 }
@@ -104,12 +104,43 @@
   margin-right: 2rem;
 }
 
-/* .user-name::before {
-  content: url(icons/magnify.svg);
-  display: inline-block;
-  width: 2rem;
-  height: 2rem;
-} */
+.user-info2 {
+  margin-left: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 6.5fr;
+  align-items: center;
+  font-weight: 700;
+}
+
+.user-name2 {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.account-circle2 {
+  height: 6rem;
+  width: 6rem;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 5rem;
+}
+
+.button {
+  background-color: rgb(25, 146, 212);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 3rem;
+  padding: 1rem 2rem;
+  justify-self: right;
+}
+
+/*    |||||||||MAIN CONTENT||||||||| */
 
 .main-content {
   display: grid;
